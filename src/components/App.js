@@ -24,7 +24,7 @@ function App() {
       }
     }
     setRandopos(image);
-  }, []);
+  }, [start]);
 
   const handleClick = () => {
     setStart(!start);
