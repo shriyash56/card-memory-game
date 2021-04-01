@@ -23,7 +23,7 @@ export default function Windialog({isOpen,score, reset,start}) {
         onClose={handleClose}
         aria-labelledby="max-width-dialog-title"
       >
-        <DialogTitle id="max-width-dialog-title">Congratulations You Win!</DialogTitle>
+        <DialogTitle id="max-width-dialog-title">Congratulations You Won!</DialogTitle>
         <DialogActions>
           <DialogContent>
             <DialogContentText>
